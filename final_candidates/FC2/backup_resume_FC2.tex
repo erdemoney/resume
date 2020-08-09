@@ -1,0 +1,144 @@
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+\def\name{Eric DeMoney}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {TCP, UDP, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={7in, 9in},
+  left=0.75in,
+  top=1in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.475\linewidth}
+    Highly motivated Computer Science student with one year of experience in a fast-paced corporate tech enviroment
+\end{minipage}
+\hspace{0.125cm}
+\begin{minipage}{0.475\linewidth}
+  \begin{tabular}{ll}
+    Address: & 369 E 4th St \#3, Chico CA, 95926\\
+    Phone: & (669) 234-6413 \\
+    Email: & \href{mailto:eric@demoney.net}{\tt eric@demoney.net} \\
+  \end{tabular}
+\end{minipage}
+
+\vspace{0.5in}
+
+\section*{Experience}
+\subsection*{Information Security Intern (08/2018 - 08/2019) - Enloe Medical Center (Hospital in Chico, CA)
+}
+\begin{itemize}
+ \item Developed user creation and termination scripts that saved \textasciitilde 6 hours of work per week and eliminated the need to purchase expensive provisioning software to perform the same task.
+ \item Designed and implemented several scripts to automate and minimize mistakes in time consuming provisioning tasks as well as scripts for generating spreadsheets of vital security metrics.
+ \item Secretary of the Risk Management Committee, which discusses solutions for high-risk vulnerabilities in the hospital's technical infrastructure.
+ \item Performed daily tasks such as log monitoring using Proofpoint, LogRhythm, and Rapid7.
+\end{itemize}
+\subsection*{Personal Projects}
+\begin{itemize}
+    \item Wrote CLI program in C++ to dissect packets over a network similarly to Wireshark using PCAP live capture.
+    \item Configured and maintained Linux servers on Ubuntu Server and CentOS, and personal laptop on Arch Linux.
+\end{itemize}
+\subsection*{Class Projects}
+\begin{itemize}
+    \item Wrote interpreted programming language for making simple computer games using Bison and Flex
+    \item Wrote a simple network file transfer utility that implements both stop-and-wait ARQ and Sliding window ARQ using the Berkeley sockets API and C.
+\end{itemize}
+\begin{minipage}[t]{0.475\linewidth}
+    \section*{Relevant Coursework}
+    \begin{itemize}
+        \item CSCI 515 Compiler Design
+        \item CINS 448 Computer Security
+        \item CSCI 446 Networking Basics and Socket Programming in C
+        \item CSCI 370 Basics of databases
+        \item CSCI 111, 211, 311 Algorithms and data structures in C++
+        \item EECE 237 Embedded systems development in ARM assembly and C
+        \item MATH 314 Probability and statistics for science and technology
+        \item MATH 217 Discrete Mathematical Structures
+        \item MATH 120, 121 Differential and integral calculus
+        \item PHYS 204 Physics for Engineers
+    \end{itemize}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[t]{0.475\linewidth}
+    \section*{Education}
+    \begin{itemize}
+    \item B.S. Computer Science expected 05/2021
+
+        California State University, Chico
+    \end{itemize}
+    \section*{Technical Skills}
+
+    \subsection*{Languages}
+    \begin{itemize}
+        \item \emph{Proficient with} C/C++, PowerShell, and Unix shell
+        \item \emph{Familiar with} R, Java, JavaScript, HTML/CSS, SQL and Bash 
+        \item \emph{Learning} Go and Python
+    \end{itemize}
+    \subsection*{Software}
+    \begin{itemize}
+    \item Git, Wireshark, \LaTeX, LDAP systems
+    \item Comfortable with any Unix-based operating system or Windows.
+    \end{itemize}
+\end{minipage}
+\end{document}
