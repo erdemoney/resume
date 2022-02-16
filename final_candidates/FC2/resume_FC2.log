@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.13)  16 FEB 2022 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.2.13)  16 FEB 2022 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,8 +347,9 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-[]\T1/pplj/m/it/10 Familiar with \T1/pplj/m/n/10 Python, R, Java, JavaScript,
+Underfull \hbox (badness 2790) in paragraph at lines 111--112
+[]\T1/pplj/m/it/10 Familiar with \T1/pplj/m/n/10 C, Python, R, Java, JavaScript
+,
  []
 
 [1
@@ -372,7 +373,7 @@ ublic/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fpl
 rij8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on resume_FC2.pdf (1 page, 96971 bytes).
+Output written on resume_FC2.pdf (1 page, 97181 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
