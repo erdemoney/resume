@@ -2,27 +2,20 @@
 
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{xcolor}
 
-% Comment the following lines to use the default Computer Modern font
-% instead of the Palatino font provided by the mathpazo package.
-% Remove the 'osf' bit if you don't like the old style figures.
 \usepackage[T1]{fontenc}
 \usepackage[sc,osf]{mathpazo}
 
 \def\name{Eric DeMoney}
 
-% Replace this with a link to your CV if you like, or set it empty
-% (as in \def\footerlink{}) to remove the link in the footer:
-%\def\footerlink{http://jblevins.org/projects/cv-template/}
-
-% The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
   urlcolor = black,
-  pdfauthor = {\name},
-  pdfkeywords = {TCP, UDP, mathematics},
-  pdftitle = {\name: Curriculum Vitae},
-  pdfsubject = {Curriculum Vitae},
+  pdfauthor = {\name Eric DeMoney},
+  pdfkeywords = {mobile, web, c++, c, flutter},
+  pdftitle = {\name: Eric DeMoney},
+  pdfsubject = {resume},
   pdfpagemode = UseNone
 }
 
@@ -65,12 +58,9 @@
 \begin{document}
 
 % Place name at left
-{\huge \name}
+{\textbf{\huge \name}
 
-% Alternatively, print name centered and bold:
-%\centerline{\huge \bf \name}
-
-% \vspace{0.15in}
+\vspace{0.05in}
 
 \begin{minipage}{0.475\linewidth}
    Recent Computer Science graduate with significant experience with C++, mobile, and web development with proven ability to quickly learn new skills and\\languages. 
@@ -85,7 +75,8 @@
   \end{tabular}
 \end{minipage}
 
-\vspace{0.2in}
+\vspace{0.1in}
+\textcolor{teal}{---------------------------------------------------------------------------------------------------------------------------------------------------------}
 
 \begin{minipage}[t]{0.475\linewidth}
     \section*{Education}
@@ -96,9 +87,7 @@
     \section*{Relevant Courses}
     \begin{itemize}
         \item[$\bullet$] CSCI 567 Mobile Application Development
-        \item[$\bullet$] CSCI 430 Software Engineering
         \item[$\bullet$] CSCI 551 Numerical Methods and Parallel\\Programming
-        \item[$\bullet$] CSCI 111, 211, 311, 550 Programming and\\Algorithms
         \item[$\bullet$] MATH 314 Probability And Statistics For Science And Technology
     \end{itemize}
 \end{minipage}
@@ -107,36 +96,34 @@
     \section*{Technical Skills}
     \subsection*{Languages and Frameworks}
     \begin{itemize}
-        \item[$\bullet$] \emph{Proficient with} C++, Flutter/Dart, and Django
-        \item[$\bullet$] \emph{Familiar with} C, Python, R, Java, JavaScript, HTML/CSS, SQL, Powershell and Bash
-        \item[$\bullet$] \emph{Learning} Go and TensorFlow
+        \item[$\bullet$] \emph{Proficient with} \textbf{C++}, \textbf{Flutter/Dart}, and \textbf{Django}
+        \item[$\bullet$] \emph{Familiar with} \textbf{C}\emph{, }\textbf{Python}, \textbf{R}, \textbf{Java}, \textbf{JavaScript}, \textbf{HTML/CSS}, \textbf{SQL}, \textbf{Powershell} and \textbf{Bash}
     \end{itemize}
     \subsection*{Software}
     \begin{itemize}
-        \item[$\bullet$] Git, GDB, Valgrind, Firebase
+        \item[$\bullet$] Git, GDB, Valgrind, Active Directory
         \item[$\bullet$] Unix command line tools
-        \item[$\bullet$] Active Directory
-        \item[$\bullet$] 4 years of Linux experience
+        \item[$\bullet$] 4 years of \textbf{Linux} experience
     \end{itemize}
 \end{minipage}
 
 \section*{Experience}
-\subsection*{Information Security Intern Enloe Medical Center, Chico, CA, August 2018 - August 2019
+\subsection*{Information Security Intern \normalsize{Enloe Medical Center, Chico, CA, August 2018 - August 2019}
 }
 \begin{itemize}
     \item[$\bullet$] Automated user creation and termination processes saving \textasciitilde 6 hours of work per week and eliminating the need to purchase expensive provisioning software.
  \item[$\bullet$] Developed scripts to generate Excel spreadsheets of vital security metrics for weekly review.
  \item[$\bullet$] Secretary of Risk Management Committee, which discusses solutions for high-risk vulnerabilities in the\\hospital's technical infrastructure.
- \item[$\bullet$] Performed daily tasks such as log monitoring using Proofpoint, LogRhythm, and Rapid7.
+ \item[$\bullet$] Daily tasks included log monitoring using Proofpoint, LogRhythm, and Rapid7.
  \item[$\bullet$] Maintained extensive technical documentation for scripts and programs developed.
 \end{itemize}
 \subsection*{Projects}
 \begin{itemize}
-    \item[$\bullet$] Developed website that allows friends to discuss and vote on what restaurant to go to using results from Yelp. \emph{Implemented using the Django web framework, WebSockets, Yelp API and Bootstrap front-end toolkit.}
-    \item[$\bullet$] Developed cross-platform mobile application for collaboratively planning outdoors trips with friends.\\\emph{Implemented using the Flutter SDK, Firebase Realtime Database, Google Places API, and OpenWeatherMap API.}
-    \item[$\bullet$] Implemented Minesweeper solving algorithm and Minesweeper game in C++.
-    \item[$\bullet$] Implemented compiler/interpreter in C++ for a programming language for making OpenGL computer games.
-    \item[$\bullet$] Wrote network file transfer utility with error correction in C using the Berkeley sockets API.
-    \item[$\bullet$] Currently working on designing an application to identify and catalog fish species captured by underwater cameras on the Yuba River using the TensorFlow Object Detection API.
+    \item[$\bullet$] \textbf{PackPlan} - Cross-platform mobile application for collaboratively planning outdoor trips with friends.\\\emph{Implemented using }\textbf{Flutter SDK}\emph{, }\textbf{Firebase Realtime Database}\emph{, }\textbf{Google Places API}\emph{, and }\textbf{OpenWeatherMap API}.
+    \item[$\bullet$] \textbf{MunchMatch} - Developed website that allows friends to discuss and vote on what restaurant to go to using results from Yelp. \emph{Implemented using }\textbf{Django Web Framework}\emph{, }\textbf{WebSockets}\emph{, }\textbf{Yelp API}\emph{ and }\textbf{Bootstrap}.
+    \item[$\bullet$] \textbf{Minesweeper Solver} - Implemented Minesweeper solving algorithm and Minesweeper game in \textbf{C++}.
+    \item[$\bullet$] \textbf{Game Programming Language} - Implemented compiler/interpreter in \textbf{C++} for a programming language for making OpenGL computer games.
+    \item[$\bullet$] \textbf{Network File Transfer Utility} - Wrote network file transfer utility with error correction in \textbf{C} using \textbf{Berkeley Sockets API}.
+    \item[$\bullet$] \textbf{Fish AI} - Currently working on designing an application to identify and catalog fish species captured by underwater cameras on the Yuba River using the \textbf{TensorFlow Object Detection API}.
 \end{itemize}
 \end{document}
