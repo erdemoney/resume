@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.24)  26 FEB 2022 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.24)  26 FEB 2022 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,7 +210,7 @@ Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
 
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -233,8 +233,8 @@ LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
 )
-LaTeX Font Info:    Trying to load font information for T1+pplj on input line 6
-3.
+LaTeX Font Info:    Trying to load font information for T1+pplj on input line 5
+8.
  (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
@@ -246,25 +246,25 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (./resume_FC2.aux)
 \openout1 = `resume_FC2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-Package hyperref Info: Link coloring ON on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+Package hyperref Info: Link coloring ON on input line 58.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -278,9 +278,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count267
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (./resume_FC2.out) (./resume_FC2.out)
 \@outlinefile=\write3
 \openout3 = `resume_FC2.out'.
@@ -336,48 +336,48 @@ LaTeX Info: Redefining \nameref on input line 63.
 )
 \big@size=\dimen153
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
-72.
+67.
  (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-72.
+67.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-72.
+67.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-72.
+67.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-72.
+67.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
-8.
+3.
 
 (/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (4.11pt too wide) in paragraph at lines 84--85
+Overfull \hbox (4.11pt too wide) in paragraph at lines 79--80
 [][]\T1/pplj/m/n/10 -----------------------------------------------------------
 -------------------------------------------------------------------------------
 ---------------
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 105--106
+Underfull \hbox (badness 1917) in paragraph at lines 100--101
 []\T1/pplj/m/it/10 Familiar with \T1/pplj/b/n/10 C\T1/pplj/m/it/10 , \T1/pplj/b
 /n/10 Python\T1/pplj/m/n/10 , \T1/pplj/b/n/10 R\T1/pplj/m/n/10 , \T1/pplj/b/n/1
 0 Java\T1/pplj/m/n/10 , \T1/pplj/b/n/10 JavaScript\T1/pplj/m/n/10 ,
@@ -392,16 +392,16 @@ Package rerunfilecheck Info: File `resume_FC2.out' has not changed.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 66 ({)
+### simple group (level 1) entered at line 61 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8861 strings out of 480445
- 129708 string characters out of 5892391
- 435798 words of memory out of 5000000
- 26012 multiletter control sequences out of 15000+600000
+ 8860 strings out of 480445
+ 129698 string characters out of 5892391
+ 435786 words of memory out of 5000000
+ 26011 multiletter control sequences out of 15000+600000
  433721 words of font info for 72 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 71i,8n,74p,343b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,359b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/base/8
 r.enc} </Users/eric/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/ectt1000.600pk></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public
@@ -411,7 +411,7 @@ c/fpl/fplrij8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/pal
 atino/uplb8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb>
-Output written on resume_FC2.pdf (1 page, 92307 bytes).
+Output written on resume_FC2.pdf (1 page, 92092 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
